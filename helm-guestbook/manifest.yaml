@@ -41,7 +41,7 @@ spec:
         release: tst-helm-guestbook
     spec:
       containers:
-        - image: gcr.io/google-samples/gb-fronddtend:v5
+        - image: gcr.io/google-samples/gb-frontend:v5
           imagePullPolicy: IfNotPresent
           livenessProbe:
             httpGet:
@@ -56,4 +56,10 @@ spec:
             httpGet:
               path: /
               port: http
-          resources: {}
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi
+            requests:
+              cpu: 100m
+              memory: 128Mi
