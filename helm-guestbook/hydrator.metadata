@@ -1,6 +1,6 @@
 {
   "repoURL": "https://github.com/julianderks/argocd-example-apps",
-  "drySha": "a6397eeddcf73f76002a9b0e250dcc53e504f151",
+  "drySha": "21f77b57b0e65e0b266312ab1bdbe3dd7aca9465",
   "commands": [
     "helm template . --name-template tst-helm-guestbook --include-crds"
   ]
