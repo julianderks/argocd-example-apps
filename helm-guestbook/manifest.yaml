@@ -41,7 +41,7 @@ spec:
         release: dev-helm-guestbook
     spec:
       containers:
-        - image: gcr.io/google-samples/gb-frontend:v5
+        - image: gcr.io/google-samples/gb-fronddtend:v5
           imagePullPolicy: IfNotPresent
           livenessProbe:
             httpGet:
