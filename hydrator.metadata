@@ -1,7 +1,7 @@
 {
   "repoURL": "https://github.com/julianderks/argocd-example-apps",
-  "drySha": "464797b33d526127d547adeb16b555b4fd2ede19",
+  "drySha": "2348d6e1db3958a26573ef7d49849b549c115bf0",
   "author": "Julian Derks <derks@sng.nl>",
-  "date": "2025-12-15T10:08:11Z",
-  "subject": "tst 123"
+  "date": "2025-12-15T10:38:41Z",
+  "subject": "push"
 }
